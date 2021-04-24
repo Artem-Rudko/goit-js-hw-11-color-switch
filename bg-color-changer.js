@@ -33,7 +33,7 @@ function onStopBtnClick() {
 };
 
 function colorChanger() {
-    refs.bodyEl.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length)]
+    refs.bodyEl.style.backgroundColor = colors[randomIntegerFromInterval(0, colors.length - 1)]
 }
 
 // const setInterval(colorRandomize, 1000);
